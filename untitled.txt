@@ -1,0 +1,3 @@
+Generar base de datos con datos de -50nt en omniweb
+Buscar los datos de la tormetna de mayo del 2024 comparar con loa graficos extraidos por el omnierb
+Representar densidad de probabilidad y probabilidad acumulativa

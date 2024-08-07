@@ -5,7 +5,7 @@ input_excel_file = 'cooked_data.xlsx'
 df = pd.read_excel(input_excel_file)
 
 instances = df['Data_instance']
-values_columns = df.loc[:, 'Value_1':'Value_24'] 
+values_columns = df.loc[:, 'Value_1':'Value_22'] 
 
 plt.figure(figsize=(12, 8))
 
@@ -16,6 +16,8 @@ plt.title('Value_N vs Instancia')
 plt.xlabel('Value_N')
 plt.ylabel('Valor')
 plt.legend(loc='upper right', bbox_to_anchor=(1.15, 1), ncol=1)
+plt.xticks(rotation=45)
 plt.grid(True)
 
+plt.tight_layout()
 plt.show()
